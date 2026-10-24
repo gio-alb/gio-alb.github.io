@@ -100,6 +100,8 @@
   .log .hash { color: var(--yellow); }
   .log .date { color: var(--soft); }
   .log li.head .msg::after { content: "  (HEAD)"; color: var(--mint); }
+  .log-more { display: inline-block; margin-top: 10px; font-size: 14px; }
+  .log-more::before { content: "→ "; color: var(--soft); }
 
   .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
   .stat { border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; background: var(--card); }
@@ -178,17 +180,8 @@
 
   <section class="block">
     <p class="prompt"><b>git log</b> --oneline pallino</p>
-    <ul class="log">
-      <li class="head"><span class="hash">f03d90f</span><span class="date">2026-10-24</span><span class="msg">report a problem, with on-device crash summaries</span></li>
-      <li><span class="hash">7265fd3</span><span class="date">2026-10-24</span><span class="msg">sync the nest through iCloud across Mac, iPhone and iPad</span></li>
-      <li><span class="hash">c496ce9</span><span class="date">2026-10-24</span><span class="msg">live activity: Dynamic Island and Lock Screen</span></li>
-      <li><span class="hash">f6f4b82</span><span class="date">2026-10-23</span><span class="msg">redesign for iPhone and iPad, made for the screen</span></li>
-      <li><span class="hash">00b68a4</span><span class="date">2026-10-23</span><span class="msg">go multiplatform</span></li>
-      <li><span class="hash">112d8fa</span><span class="date">2026-10-23</span><span class="msg">submit 1.0 to the Mac App Store</span></li>
-      <li><span class="hash">481c211</span><span class="date">2026-10-22</span><span class="msg">pause the timer when the Mac goes to sleep</span></li>
-      <li><span class="hash">54c62ff</span><span class="date">2026-10-22</span><span class="msg">full test pass: celebration, cycle, streaks, notifications</span></li>
-      <li><span class="hash">3c5c431</span><span class="date">2026-10-22</span><span class="msg">first commit: Pallino 1.0 for macOS</span></li>
-    </ul>
+    <ul class="log" data-limit="6"></ul>
+    <a class="log-more" href="log.html">see all commits</a>
   </section>
 
   <section class="block">
@@ -296,5 +289,6 @@
   requestAnimationFrame(frame);
 })();
 </script>
+<script src="log.js"></script>
 </body>
 </html>
