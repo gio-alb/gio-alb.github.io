@@ -1,6 +1,7 @@
 // Pallino's commit history, newest first. Real commits, messages translated to English.
 // To add an update, put a new line at the top: both the home page and log.html read this list.
 window.PALLINO_LOG = [
+  ["492e9c0", "2026-10-26", "settings: tighter footer"],
   ["aff6c27", "2026-10-25", "iPhone: minute presets fit on narrow screens"],
   ["161ffb7", "2026-10-24", "settings: small \"by gioalberodev\" signature"],
   ["87b867a", "2026-10-24", "support and privacy pages in the gioalberodev style"],
