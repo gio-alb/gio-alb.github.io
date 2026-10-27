@@ -1,6 +1,7 @@
 // Pallino's commit history, newest first. Real commits, messages translated to English.
 // To add an update, put a new line at the top: both the home page and log.html read this list.
 window.PALLINO_LOG = [
+  ["6274de4", "2026-10-27", "full-screen nudges: secondary choices look like real buttons"],
   ["c40af0d", "2026-10-27", "knock when a paused session is forgotten, with a Resume button"],
   ["0b27f84", "2026-10-27", "stay quiet during calls; pick the minutes right from the nudge"],
   ["1941a95", "2026-10-26", "\"Pallino won't let go\": full-screen nudges and breaks; colorful menu bar icon"],
