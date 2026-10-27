@@ -1,6 +1,7 @@
 // Pallino's commit history, newest first. Real commits, messages translated to English.
 // To add an update, put a new line at the top: both the home page and log.html read this list.
 window.PALLINO_LOG = [
+  ["58085fd", "2026-10-27", "notifications: friendlier texts and Start buttons right inside them"],
   ["5190526", "2026-10-27", "full-screen nudges: a clearer way out, with esc and X keys"],
   ["e079bca", "2026-10-27", "break screen: clearer hint to skip"],
   ["c9e210b", "2026-10-27", "fix: the first click on a full-screen nudge was lost"],
