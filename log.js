@@ -1,6 +1,7 @@
 // Pallino's commit history, newest first. Real commits, messages translated to English.
 // To add an update, put a new line at the top: both the home page and log.html read this list.
 window.PALLINO_LOG = [
+  ["080234f", "2026-10-30", "break screen: hold Pallino for just 1 second to skip"],
   ["17524ee", "2026-10-30", "open at login, right next to \"Pallino won't let go\""],
   ["7569590", "2026-10-30", "fix: about 40% CPU with the timer running and the panel closed, now about 2%"],
   ["58085fd", "2026-10-27", "notifications: friendlier texts and Start buttons right inside them"],
