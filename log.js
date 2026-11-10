@@ -1,6 +1,7 @@
 // Pallino's commit history, newest first. Real commits, messages translated to English.
 // To add an update, put a new line at the top: both the home page and log.html read this list.
 window.PALLINO_LOG = [
+  ["b4dd601", "2026-11-10", "Pallino 1.2 (Christmas) submitted to App Store review for Mac, iPhone and iPad"],
   ["0f3cef0", "2026-11-10", "Christmas: reindeer, elf and Santa join the characters, plus a holiday icon"],
   ["a1f75d6", "2026-11-08", "Pallino for iPhone and iPad released on the App Store"],
   ["a1f75d6", "2026-11-08", "Pallino for iPhone and iPad submitted to App Store review"],
